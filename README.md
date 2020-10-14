@@ -2,11 +2,11 @@
 Given a YouTube channel URL as input, download all videso from that channel using youtube-dl.
 
 ## Prerequisites
-python 3
-youtube-dl
-bs4
-jsonfinder
-nested_lookup
+- python 3
+- youtube-dl
+- bs4
+- jsonfinder
+- nested_lookup
 
 ## Usage
 1. Get the URL of your favorite YouTube channel.
