@@ -1,5 +1,5 @@
 # youtube-channel-dl
-Given a YouTube channel URL as input, download all videso from that channel using youtube-dl.
+Given a YouTube channel URL as input, download *all* videos from that channel using youtube-dl.
 
 ## Prerequisites
 - python 3
