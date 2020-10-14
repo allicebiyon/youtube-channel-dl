@@ -42,6 +42,7 @@ print("Parsing YouTube channel...\n")
 soup = BeautifulSoup(res.text, 'html.parser')
 
 
+# Get the playlist for all videos
 scripts = soup.find_all('script')
 for script in scripts:
     if script.string != None and script.string.find('window["ytInitialData"]') >0:
@@ -57,9 +58,11 @@ for script in scripts:
                 print(playlist_url,"\n")
 
 
+# Call youtube-dl
 print("Calling youtube-dl...\n")
 
 
+# Download all videos
 ydl_opts = {}
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([playlist_url])
