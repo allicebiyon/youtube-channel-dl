@@ -1,4 +1,4 @@
-# macdict-andro
+# youtube-channel-dl
 Given a YouTube channel URL as input, download all videso from that channel using youtube-dl.
 
 ## Prerequisites
