@@ -6,7 +6,7 @@ from jsonfinder import jsonfinder
 from nested_lookup import nested_lookup
 
 parser = argparse.ArgumentParser(description='Download YouTube videos from a channel using youtube-dl.')
-parser.add_argument('channelURL', metavar='YouTube Channel URL', type=str, help='The channel\'s URL')
+parser.add_argument('channelURL', metavar='url', type=str, help='The channel\'s URL')
 
 args = parser.parse_args()
 
