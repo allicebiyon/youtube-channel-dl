@@ -1,7 +1,6 @@
 import argparse
 import requests
 import youtube_dl
-import re
 from bs4 import BeautifulSoup
 from jsonfinder import jsonfinder
 from nested_lookup import nested_lookup
